@@ -1,6 +1,7 @@
 import React from "react";
 
-import Home from "./components/Home";
+//import Home from "./components/Home";
+import Redux from "./components/Redux";
 
 class App extends React.Component {
   constructor() {
@@ -11,7 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Home />
+        <Redux />
       </div>
     );
   }
